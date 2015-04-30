@@ -2,12 +2,8 @@ module.exports = function(grunt) {
     require('time-grunt')(grunt);
     grunt.initConfig({
         directories: {
-<<<<<<< HEAD
             project: 'denturetech',
-=======
-            project: 'mysite',
             boilerplate: 'boilerplate',
->>>>>>> 0873139666136460457789af2285de1d98d0f5b7
             cmsBranding: 'cms-branding'
         },
         pkg: grunt.file.readJSON('package.json'),
