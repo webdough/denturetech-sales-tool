@@ -1,0 +1,58 @@
+/*-------------------------------------------------------*\
+    Product Category Page
+\*-------------------------------------------------------*/
+
+$highlight-color: #1692d4;
+
+.category-page.section {
+    .row {
+        margin: 0 (-$gap-xs);
+    }
+    .item {
+        padding: 0 $gap-xs;
+        margin: 0 0 $gap-sm 0;
+        overflow: hidden;
+        position: relative;
+        @media(min-width: $screen-sm-min) {
+
+        }
+        &.even {
+            .heading {
+                background: $highlight-color;
+                @media(min-width: $screen-sm-min) {
+                    background: rgba($highlight-color, 0.90);
+                }
+            }
+        }
+        .heading {
+            background: $brand-primary-dark;
+            color: $brand-primary-color;
+            padding: $gap-sm;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            @media(min-width: $screen-sm-min) {
+                padding: $gap-md;
+                background: rgba($brand-primary-dark, 0.90);
+            }
+            .text {
+                font-size: $font-size-base;
+                margin: 0;
+                color: $brand-primary-color;
+                text-transform: uppercase;
+                @media(min-width: $screen-md-min) {
+                    margin: 0 0 $gap-sm 0;
+                    font-size: $font-size-h3;
+                }
+            }
+            .summary {
+                display: none;
+                font-size: 0.9em;
+                @media(min-width: $screen-md-min) {
+                    display: block;
+                }
+            }
+        }
+    }
+}

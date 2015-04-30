@@ -2,7 +2,7 @@ module.exports = function(grunt) {
     require('time-grunt')(grunt);
     grunt.initConfig({
         directories: {
-            project: 'mysite',
+            project: 'denturetech',
             cmsBranding: 'cms-branding'
         },
         pkg: grunt.file.readJSON('package.json'),

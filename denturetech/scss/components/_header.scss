@@ -1,0 +1,23 @@
+/*-------------------------------------------------------*\
+    Header
+\*-------------------------------------------------------*/
+
+#header {
+    text-align: center;
+    @media(min-width: $screen-sm-min) {
+        text-align: left;
+    }
+}
+
+#logo {
+    margin: 0 0 $gap-lg 0;
+    @media(min-width: $screen-sm-min) {
+        margin: 0;
+    }
+    img {
+        max-width: 60%;
+        @media(min-width: $screen-sm-min) {
+            max-width: none;
+        }
+    }
+}

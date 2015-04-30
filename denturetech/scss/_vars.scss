@@ -1,0 +1,85 @@
+/*======================================================================*\
+    Site Size
+\*======================================================================*/
+
+/*======================================================================*\
+    Colors
+\*======================================================================*/
+
+$light-background: #e4eef3;
+
+$brand-primary: #0d6095;
+$brand-secondary: #feb900;
+
+/*======================================================================*\
+    Fonts
+\*======================================================================*/
+
+@font-face {
+    font-family: 'proxima_bold';
+    src: url('../fonts/proxima/proximanova-bold-webfont.eot');
+    src: url('../fonts/proxima/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/proxima/proximanova-bold-webfont.woff2') format('woff2'),
+    url('../fonts/proxima/proximanova-bold-webfont.woff') format('woff'),
+    url('../fonts/proxima/proximanova-bold-webfont.ttf') format('truetype'),
+    url('../fonts/proxima/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal !important;
+    font-style: normal !important;
+}
+
+@font-face {
+    font-family: 'proxima_regular';
+    src: url('../fonts/proxima/proximanova-regular-webfont.eot');
+    src: url('../fonts/proxima/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/proxima/proximanova-regular-webfont.woff2') format('woff2'),
+    url('../fonts/proxima/proximanova-regular-webfont.woff') format('woff'),
+    url('../fonts/proxima/proximanova-regular-webfont.ttf') format('truetype'),
+    url('../fonts/proxima/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal !important;
+    font-style: normal !important;
+}
+
+$font-base-color: $brand-primary;
+$font-size-base: 16px;
+
+$font-family-base: 'proxima_regular', sans-serif;
+$font-family-heading: 'proxima_bold', sans-serif;
+
+/*======================================================================*\
+    Navigation
+\*======================================================================*/
+
+/*======================================================================*\
+    Sidebar
+\*======================================================================*/
+
+/*======================================================================*\
+    Colors - Buttons
+\*======================================================================*/
+
+/*======================================================================*\
+    Colors - Panels
+\*======================================================================*/
+
+/*======================================================================*\
+    Gaps
+\*======================================================================*/
+
+/*======================================================================*\
+    Border Radii
+\*======================================================================*/
+
+/*======================================================================*\
+    Animation
+\*======================================================================*/
+
+/*======================================================================*\
+    Popout Menu
+\*======================================================================*/
+
+/*======================================================================*\
+    Variables
+\*======================================================================*/
+
+@import '../../components/public/bootstrap-sass/assets/stylesheets/bootstrap/variables';
+@import '../../boilerplate/scss/vars';

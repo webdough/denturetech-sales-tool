@@ -1,0 +1,22 @@
+/*======================================================================*\
+    Layout
+\*======================================================================*/
+
+html {
+    position: relative;
+    background: $light-background;
+    overflow: auto;
+}
+body {
+    background: $light-background no-repeat center bottom;
+    background-size: 100% auto;
+    overflow: auto;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    min-width: 100%;
+    min-height: 100%;
+    @media(max-width: $screen-sm-max) {
+        background-image: none !important; // override inline style
+    }
+}

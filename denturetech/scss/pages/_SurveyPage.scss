@@ -1,0 +1,47 @@
+/*-------------------------------------------------------*\
+    Survey Page
+\*-------------------------------------------------------*/
+
+.survey.section {
+    .form {
+        .radio {
+            padding: 0;
+            position: relative;
+            li {
+                position: relative;
+                display: inline-block;
+                label {
+                    position: relative;
+                    display: inline-block;
+                    width: 2em;
+                    height: 2em;
+                    text-align: center;
+                    line-height: 2em;
+                    background: $brand-secondary;
+                    background: linear-gradient($brand-secondary-light, $brand-secondary);
+                    border-radius: 4px;
+                    border: 1px solid $brand-secondary-dark;
+                    color: $brand-secondary-color;
+                    text-shadow: 1px 2px 0 rgba(0,0,0,0.12);
+                    font-weight: bold;
+                    font-size: 20px;
+                    box-shadow: 0 0 5px rgba(255,255,255,0.7);
+                    cursor: pointer;
+                }
+                input[type="radio"] {
+                    position: absolute;
+                    top: 0.5em;
+                    left: 0.5em;
+                    &:checked {
+                        &+label {
+                            background: $brand-primary;
+                            background: linear-gradient($brand-primary-light, $brand-primary);
+                            border-color: $brand-primary-dark;
+                            color: $brand-primary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

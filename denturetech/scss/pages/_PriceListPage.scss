@@ -1,0 +1,83 @@
+/*-------------------------------------------------------*\
+    Price List Page
+\*-------------------------------------------------------*/
+
+.price-tabs.section {
+    padding: 0;
+    .nav-tabs {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background: $brand-primary;
+        background: linear-gradient($brand-primary-light, $brand-primary-dark);
+        border-width: 0;
+        li {
+            margin: 0;
+            text-align: center;
+            &.active {
+                a {
+                    border-color: $gray-lighter;
+                    border-top-color: tint($gray-lighter, 50);
+                    background: $gray-lighter;
+                    background: linear-gradient(tint($gray-lighter, 50), $gray-lighter);
+                    color: #b8b8b8;
+                }
+            }
+            a {
+                border: 1px solid $brand-primary-dark;
+                border-bottom-width: 0;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin: 0;
+                color: $brand-primary-color;
+                background: $brand-primary;
+                background: linear-gradient($brand-primary-light, $brand-primary-dark);
+                &:hover,
+                &:focus,
+                &:active {
+                    border-width: 1px;
+                    border-bottom-width: 0;
+                }
+            }
+        }
+    }
+    .tab-content {
+        .tab-pane {
+
+        }
+        .table {
+            @media(min-width: $screen-sm-min) {
+                text-align: center;
+            }
+            .header {
+                background: $gray-lighter;
+                color: $brand-primary;
+                font-weight: bold;
+                th {
+                    border-width: 0;
+                    text-transform: uppercase;
+                    @media(min-width: $screen-sm-min) {
+                        text-align: center;
+                    }
+                }
+            }
+            tr {
+                &.odd {
+                    td {
+                        background: #f7f7f7;
+                    }
+                }
+                &.even {
+                    td {
+                        background: #efefef;
+                    }
+                }
+            }
+            td {
+                text-transform: uppercase;
+                border-width: 0;
+                background: $brand-default;
+                color: #b8b8b8;
+            }
+        }
+    }
+}
